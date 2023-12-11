@@ -6,7 +6,7 @@ By: Gabriel Dougherty
 
 There is no doubt that the state of Maine has struggled with maintaining a consistent spread of districts. This is mainly due to the majority of the population being focused around the large cities of the Southern region. Out of the 16 total counties, the densely populated district contains eight of them yet only spans around ten percent of Maine’s total area. As a result of this, the northern district has almost ten times the total area compared to the southern. The lack of consistency in shape and size also causes the county map to seem very cluttered, which can therefore lead to confusion when put under analysis. Because of the large difference in available land, rural lifestyles are a lot more common in the northern district while the south is more urban focused. Issues arise around this due to the historically continuous political stereotypes found when compared to lifestyles. As seen in figure 1, the majority of the densely populated counties are blue while the spacious, rural areas are mostly red. Fortunately, the layout of the counties is focused around each major city and then extended based upon the surrounding area’s population. This should allow for the redistricting process to be extremely simple to execute as the county lines will remain intact as per the constitution.
 
-![Figure 1](readme_images/.png?raw=true)
+![Figure 1](readme_pics/pols.png?raw=true)
 
 ## Criteria
 
@@ -17,7 +17,9 @@ There are many other different forms of criteria that can be considered when a s
 
 Due to the inconveniently shaped counties and population bias of the south, Maine could benefit from a balancing of district sizes. As the southeast is approached, the districts tighten in proportion to the increase in population. As seen in figures 2 and 3, district one consists of only counties under 1,000 mi^2, all of which just happen to be the most densely populated. The “clump” of counties along the Gulf of Maine could be fit multiple times into the northern district, this can cause issues as the physical size of each district is significantly impacted by the population size of each county. In order to combat this, multiple strategies can be used to test different methods of redistricting until a desired result is found. The goal of these strategies is to determine a new optimal district planning solution by maximizing the total square mileage of each district while keeping the populations within the set boundaries.
 
-![Figure 1](readme_images/.png?raw=true)
+![Figure 1](readme_pics/current_districts.png?raw=true)
+
+![Figure 1](readme_pics/current_counties.png?raw=true)
 
 ## Optimization Model in Words
 
@@ -37,25 +39,22 @@ Specifications
 
 Experiment 1:
 
-![Figure 1](readme_images/.png?raw=true)
+![Figure 1](readme_pics/Exp1.png?raw=true)
 
-![Figure 1](readme_images/.png?raw=true)
 
 The results of this experiment were determined by using a Wiliams-based model edited to remove the maximum population deviation constraint which causes the focus to shift from population based to area based. This experiment successfully divided the districts evenly by their counties’ total area seen by the almost 50% split in colors. However, the population deviation between these two districts came out to around 2.14%, making this solution not ideal.
 
 Experiment 2:
 
-![Figure 1](readme_images/.png?raw=true)
-
-![Figure 1](readme_images/.png?raw=true)
+![Figure 1](readme_pics/Exp2.png?raw=true)
 
 The results of this experiment were determined by using a Wiliams-based model. This experiment resulted in a less desired division of land due to the blue district being concentrated to the southwest of Maine. However, because the population density for these southern counties is so high, the best possible population deviation of 0.41% is able to be achieved.
 
 ## Evaluation
 
-![Figure 1](readme_images/.png?raw=true)
+![Figure 1](readme_pics/plan.png?raw=true)
 
-![Figure 1](readme_images/.png?raw=true)
+![Figure 1](readme_pics/plandata.png?raw=true)
 
 The solution that is being proposed takes aspects from both experiments one and two. This redistricting plan uses the map that offered the best population deviation along with the formula that offered the shortest paths between counties to Experiment one seemed to have a more superior method to determine the shortest paths between counties as the connections have less significant jumps and extensions from the center. When comparing the land distributions, experiment two’s plan is not as ideal as the first due to district one incorporating more of the densely populated areas. However, the population deviation is almost four times better than that of experiment one making this a more optimal solution.
 

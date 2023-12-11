@@ -19,7 +19,7 @@ Due to the inconveniently shaped counties and population bias of the south, Main
 
 ![Figure 1](readme_pics/districts.png?raw=true)
 
-![Figure 1](readme_pics/counties.png?raw=true)
+![Figure 1](readme_pics/counties.jpg?raw=true)
 
 ## Optimization Model in Words
 

@@ -17,9 +17,9 @@ There are many other different forms of criteria that can be considered when a s
 
 Due to the inconveniently shaped counties and population bias of the south, Maine could benefit from a balancing of district sizes. As the southeast is approached, the districts tighten in proportion to the increase in population. As seen in figures 2 and 3, district one consists of only counties under 1,000 mi^2, all of which just happen to be the most densely populated. The “clump” of counties along the Gulf of Maine could be fit multiple times into the northern district, this can cause issues as the physical size of each district is significantly impacted by the population size of each county. In order to combat this, multiple strategies can be used to test different methods of redistricting until a desired result is found. The goal of these strategies is to determine a new optimal district planning solution by maximizing the total square mileage of each district while keeping the populations within the set boundaries.
 
-![Figure 1](readme_pics/current_districts.png?raw=true)
+![Figure 1](readme_pics/districts.png?raw=true)
 
-![Figure 1](readme_pics/current_counties.png?raw=true)
+![Figure 1](readme_pics/counties.png?raw=true)
 
 ## Optimization Model in Words
 
